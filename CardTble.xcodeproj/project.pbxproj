@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03812F9C2881AB8200FA23D7 /* CardInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03812F9B2881AB8200FA23D7 /* CardInfoViewController.swift */; };
+		03812F9F2881B3D100FA23D7 /* MainViewControllerOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03812F9E2881B3D100FA23D7 /* MainViewControllerOutput.swift */; };
 		03B0656228817A6D00D189D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0656128817A6D00D189D1 /* AppDelegate.swift */; };
 		03B0656628817A6D00D189D1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0656528817A6D00D189D1 /* MainViewController.swift */; };
 		03B0656B28817A6E00D189D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03B0656A28817A6E00D189D1 /* Assets.xcassets */; };
@@ -43,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03812F9B2881AB8200FA23D7 /* CardInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfoViewController.swift; sourceTree = "<group>"; };
+		03812F9E2881B3D100FA23D7 /* MainViewControllerOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerOutput.swift; sourceTree = "<group>"; };
 		03B0655E28817A6D00D189D1 /* CardTble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardTble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03B0656128817A6D00D189D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03B0656528817A6D00D189D1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +103,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03812F9D2881AC3E00FA23D7 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				03812F9B2881AB8200FA23D7 /* CardInfoViewController.swift */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
 		03B0655528817A6D00D189D1 = {
 			isa = PBXGroup;
 			children = (
@@ -220,9 +232,11 @@
 		03BCDB812881898A00D5E7AD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				03812F9D2881AC3E00FA23D7 /* CardView */,
 				03BCDB8928818D7F00D5E7AD /* Cell */,
 				03B0656528817A6D00D189D1 /* MainViewController.swift */,
 				03BCDB8628818A4500D5E7AD /* MainViewControllerInput.swift */,
+				03812F9E2881B3D100FA23D7 /* MainViewControllerOutput.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -514,9 +528,11 @@
 				03B0656628817A6D00D189D1 /* MainViewController.swift in Sources */,
 				03BCDB83288189C800D5E7AD /* MainPresenter.swift in Sources */,
 				03BCDB8D2881907300D5E7AD /* CardModel.swift in Sources */,
+				03812F9C2881AB8200FA23D7 /* CardInfoViewController.swift in Sources */,
 				03BCDB85288189DE00D5E7AD /* MainAssembly.swift in Sources */,
 				03B0656228817A6D00D189D1 /* AppDelegate.swift in Sources */,
 				03BCDB8B28818D9100D5E7AD /* CardCell.swift in Sources */,
+				03812F9F2881B3D100FA23D7 /* MainViewControllerOutput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
